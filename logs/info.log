@@ -4306,3 +4306,94 @@
 2025-01-15T20:30:47.383+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032104817369442473540082", "statuscode": "200", "method": "GET", "path": "/admin/info/course_teacher/detail"}
 2025-01-15T20:30:48.913+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032104817369442488900083", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
 2025-01-15T20:30:59.412+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032104817369442593940084", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course"}
+2025-01-16T11:00:21.143+0800	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2025-01-16T11:00:21.159+0800	[34mINFO[0m	engine/engine.go:407	初始化配置
+2025-01-16T11:00:21.161+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2025-01-16T11:00:21.162+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
+2025-01-16T11:00:21.162+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-16T11:00:26.421+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031250817369964264210001", "statuscode": "302", "method": "GET", "path": "/admin/info/select_course"}
+2025-01-16T11:00:26.425+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031250817369964264240002", "statuscode": "200", "method": "GET", "path": "/admin/login"}
+2025-01-16T11:00:30.365+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031250817369964302350003", "statuscode": "200", "method": "POST", "path": "/admin/signin"}
+2025-01-16T11:00:30.372+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031250817369964303710004", "statuscode": "200", "method": "GET", "path": "/admin/login"}
+2025-01-16T11:00:33.777+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031250817369964336630005", "statuscode": "200", "method": "POST", "path": "/admin/signin"}
+2025-01-16T11:00:37.241+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031250817369964372210006", "statuscode": "200", "method": "GET", "path": "/admin/info/manager"}
+2025-01-16T11:00:38.744+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031250817369964387100007", "statuscode": "200", "method": "GET", "path": "/admin/info/course_teacher"}
+2025-01-16T11:00:39.473+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031250817369964394540008", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course"}
+2025-01-16T11:00:42.171+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031250817369964421490009", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:02:03.969+0800	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2025-01-16T11:02:03.982+0800	[34mINFO[0m	engine/engine.go:407	初始化配置
+2025-01-16T11:02:03.983+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2025-01-16T11:02:03.984+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
+2025-01-16T11:02:03.984+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-16T11:02:09.375+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965293460001", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:02:10.750+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965307500002", "statuscode": "200", "method": "GET", "path": "/admin/login"}
+2025-01-16T11:02:10.761+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965307600003", "statuscode": "200", "method": "GET", "path": "/admin/login"}
+2025-01-16T11:02:13.780+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965336650004", "statuscode": "200", "method": "POST", "path": "/admin/signin"}
+2025-01-16T11:02:16.332+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965362990005", "statuscode": "200", "method": "GET", "path": "/admin/info/course_teacher"}
+2025-01-16T11:02:16.792+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965367750006", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course"}
+2025-01-16T11:02:18.066+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965380440007", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:02:21.724+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965417040008", "statuscode": "302", "method": "GET", "path": "/admin/logout"}
+2025-01-16T11:02:21.735+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965417340009", "statuscode": "200", "method": "GET", "path": "/admin/login"}
+2025-01-16T11:02:25.824+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965457020010", "statuscode": "200", "method": "POST", "path": "/admin/signin"}
+2025-01-16T11:02:27.759+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965477410011", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course"}
+2025-01-16T11:02:29.091+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965490680012", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:02:30.716+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032343217369965507120013", "statuscode": "200", "method": "POST", "path": "/admin/operation/choose_course_id"}
+2025-01-16T11:09:25.098+0800	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2025-01-16T11:09:25.111+0800	[34mINFO[0m	engine/engine.go:407	初始化配置
+2025-01-16T11:09:25.112+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2025-01-16T11:09:25.112+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
+2025-01-16T11:09:25.113+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-16T11:09:29.420+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1030690017369969693930001", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:10:36.249+0800	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2025-01-16T11:10:36.265+0800	[34mINFO[0m	engine/engine.go:407	初始化配置
+2025-01-16T11:10:36.267+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2025-01-16T11:10:36.267+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
+2025-01-16T11:10:36.268+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-16T11:10:37.308+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032552017369970372810001", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:10:39.229+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032552017369970392050002", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:11:49.751+0800	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2025-01-16T11:11:49.764+0800	[34mINFO[0m	engine/engine.go:407	初始化配置
+2025-01-16T11:11:49.765+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2025-01-16T11:11:49.765+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
+2025-01-16T11:11:49.765+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-16T11:11:51.933+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032085617369971119050001", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:11:52.910+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032085617369971128850002", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:22:44.186+0800	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2025-01-16T11:22:44.199+0800	[34mINFO[0m	engine/engine.go:407	初始化配置
+2025-01-16T11:22:44.200+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2025-01-16T11:22:44.200+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
+2025-01-16T11:22:44.200+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-16T11:22:48.754+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031076817369977687240001", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:29:28.522+0800	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2025-01-16T11:29:28.534+0800	[34mINFO[0m	engine/engine.go:407	初始化配置
+2025-01-16T11:29:28.537+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2025-01-16T11:29:28.538+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
+2025-01-16T11:29:28.538+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-16T11:29:31.879+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031384417369981718430001", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:29:36.325+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031384417369981763020002", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:32:18.003+0800	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2025-01-16T11:32:18.018+0800	[34mINFO[0m	engine/engine.go:407	初始化配置
+2025-01-16T11:32:18.020+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2025-01-16T11:32:18.020+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
+2025-01-16T11:32:18.020+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-16T11:32:20.161+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1030322417369983401290001", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:32:28.052+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1030322417369983480520002", "statuscode": "200", "method": "GET", "path": "/admin/login"}
+2025-01-16T11:32:28.065+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1030322417369983480640003", "statuscode": "200", "method": "GET", "path": "/admin/login"}
+2025-01-16T11:32:35.543+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1030322417369983554210004", "statuscode": "200", "method": "POST", "path": "/admin/signin"}
+2025-01-16T11:32:37.792+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1030322417369983577570005", "statuscode": "200", "method": "GET", "path": "/admin/info/course_teacher"}
+2025-01-16T11:32:39.769+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1030322417369983597500006", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course"}
+2025-01-16T11:32:42.187+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1030322417369983621650007", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:32:48.550+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1030322417369983685310008", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course"}
+2025-01-16T11:33:21.041+0800	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2025-01-16T11:33:21.056+0800	[34mINFO[0m	engine/engine.go:407	初始化配置
+2025-01-16T11:33:21.057+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2025-01-16T11:33:21.057+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
+2025-01-16T11:33:21.057+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-16T11:33:34.909+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032708817369984148870001", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course"}
+2025-01-16T11:33:36.300+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032708817369984162770002", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-16T11:34:08.798+0800	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2025-01-16T11:34:08.811+0800	[34mINFO[0m	engine/engine.go:407	初始化配置
+2025-01-16T11:34:08.812+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2025-01-16T11:34:08.812+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
+2025-01-16T11:34:08.813+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-16T11:34:13.349+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1031436017369984533210001", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}

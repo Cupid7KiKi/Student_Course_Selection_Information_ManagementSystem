@@ -96,7 +96,13 @@ func GetSelectcourseTable(ctx *context.Context) table.Table {
 	formList.AddField("ID", "id", db.Int, form.Default).
 		FieldDisableWhenCreate().
 		FieldHide()
-	formList.AddField("学生姓名", "std_id", db.Int, form.SelectSingle).FieldOptions(services.TransFieldOptions(services.GetStudents(), "name", "id")).FieldMust()
+	if user.CheckRole("administrator") {
+		formList.AddField("学生姓名", "std_id", db.Int, form.SelectSingle).FieldOptions(services.TransFieldOptions(services.GetStudents(), "name", "id")).FieldMust()
+	}
+	fmt.Println("测试：", user.CheckRole("student"))
+	if user.CheckRole("student") {
+		formList.AddField("学生姓名", "std_id", db.Int, form.Default).FieldDisplayButCanNotEditWhenUpdate().FieldDefault(user.Name)
+	}
 	formList.AddField("课程名称", "course_id", db.Varchar, form.SelectSingle).FieldOptions(services.TransFieldOptions(services.GetCourses(), "title", "id")).FieldMust().FieldOnChooseAjax("t_id", "choose/course_id",
 		func(ctx *context.Context) (bool, string, interface{}) {
 			c_id := ctx.FormValue("value")
