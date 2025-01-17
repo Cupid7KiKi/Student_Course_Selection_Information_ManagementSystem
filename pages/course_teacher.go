@@ -75,7 +75,7 @@ func GetCourseteacherTable(ctx *context.Context) table.Table {
 		detail.AddFieldTr(ctx, " ", " ", db.Varchar)
 		detail.FieldDisplay(func(value types.FieldModel) interface{} {
 			tmp := tmpl.Default()
-			l := tmp.Col().SetSize(types.SizeMD(2)).SetContent(`<a href="http://192.168.21.63:9022/admin/info/select_course/new?__page=1&__pageSize=10&__sort=id&__sort_type=desc">`).AddContent(`<button type="button">选择课程</button></a>`).GetContent()
+			l := tmp.Col().SetSize(types.SizeMD(2)).SetContent(`<a href="http://127.0.0.1:9022/admin/info/select_course/new?__page=1&__pageSize=10&__sort=id&__sort_type=desc">`).AddContent(`<button type="button">选择课程</button></a>`).GetContent()
 			r := tmp.Col().SetContent(` `).SetSize(types.SizeMD(10)).GetContent()
 			component := tmp.Col().SetSize(types.SizeMD(12)).SetContent(l + r).GetContent()
 			return component
