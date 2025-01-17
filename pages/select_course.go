@@ -2,11 +2,11 @@ package pages
 
 import (
 	"Student_Course_Selection_Information_ManagementSystem/services"
-	"fmt"
 	"github.com/GoAdminGroup/go-admin/context"
 	"github.com/GoAdminGroup/go-admin/modules/auth"
 	"github.com/GoAdminGroup/go-admin/modules/db"
 	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
+
 	"github.com/GoAdminGroup/go-admin/template/color"
 	"github.com/GoAdminGroup/go-admin/template/types"
 	"github.com/GoAdminGroup/go-admin/template/types/action"
@@ -20,23 +20,17 @@ func GetSelectcourseTable(ctx *context.Context) table.Table {
 
 	user := auth.Auth(ctx)
 
-	fmt.Println(user.Name)
-	fmt.Println(user.Permissions[0].Slug)
-	// 验证其权限
-	if !user.CheckPermission("Select_Course") && !user.CheckPermission("*") {
-		fmt.Println("No Permission")
-	} else {
-		fmt.Println("获取权限成功")
-	}
+	//fmt.Println(user.Name)
+	//fmt.Println(user.Permissions[0].Slug)
 
 	info := selectCourse.GetInfo().HideFilterArea()
-	fmt.Println(user.CheckRole("administrator"))
-	fmt.Println(user.Roles[0].Slug)
-	fmt.Println(user.Id)
+	//fmt.Println(user.CheckRole("administrator"))
+	//fmt.Println(user.Roles[0].Slug)
+	//fmt.Println(user.Id)
 	if user.CheckRole("student") {
 		//预查询仅能查看自己
 		std_name := services.GetStudentID(user)
-		fmt.Println(std_name)
+		//fmt.Println(std_name)
 
 		info.Where("std_id", "=", services.TransItoStr(std_name))
 
@@ -44,7 +38,7 @@ func GetSelectcourseTable(ctx *context.Context) table.Table {
 	if user.CheckRole("teacher") {
 		//预查询仅能查看自己
 		tea_name := services.GetTeacherID(user)
-		fmt.Println(tea_name)
+		//fmt.Println(tea_name)
 
 		info.Where("t_id", "=", services.TransItoStr(tea_name))
 
@@ -87,19 +81,8 @@ func GetSelectcourseTable(ctx *context.Context) table.Table {
 	info.AddField("创建时间", "created_at", db.Timestamp).
 		FieldHide()
 
-	//成功案例
-	//info.AddActionButton(ctx, "选课", action.Jump("select_course/new"), color.LightGreen)
-
 	info.SetTable("select_course").SetTitle("学生选课管理").SetDescription("管理学生选课")
 
-	//detail := selectCourse.GetDetail()
-	//detail.AddField("ID", "id", db.Int)
-	//detail.AddField("学生姓名", "name", db.Int)
-	//detail.AddField("课程名称", "title", db.Int)
-	//detail.AddField("授课教师", "t_id", db.Int)
-	//detail.AddField("创建时间", "created_at", db.Timestamp)
-	//detail := selectCourse.GetDetailFromInfo()
-	//detail.AddField("授课教师", "name", db.Varchar)
 	formList := selectCourse.GetForm()
 	formList.AddField("ID", "id", db.Int, form.Default).
 		FieldDisableWhenCreate().
@@ -107,26 +90,9 @@ func GetSelectcourseTable(ctx *context.Context) table.Table {
 	if user.CheckRole("administrator") {
 		formList.AddField("学生姓名", "std_id", db.Int, form.SelectSingle).FieldOptions(services.TransFieldOptions(services.GetStudents(), "name", "id")).FieldMust()
 	}
-	fmt.Println("测试：", user.CheckRole("student"))
+	//fmt.Println("测试：", user.CheckRole("student"))
 	if user.CheckRole("student") {
 		formList.AddField("学生姓名", "std_id", db.Int, form.Default).FieldDisplayButCanNotEditWhenUpdate().FieldDefault(services.TransItoStr(services.GetStudentID(user))).FieldHide()
-		//.
-		//	FieldDisplay(func(value types.FieldModel) interface{} {
-		//		fmt.Println("匿名：", value.Value)
-		//		a, err := services.GetDb().Query("select name from students where id = " + value.Value)
-		//		if err != nil {
-		//			return errors.New("错误")
-		//		}
-		//		var b []interface{}
-		//		for _, item := range a {
-		//			for _, value := range item {
-		//				b = append(b, value)
-		//			}
-		//		}
-		//		fmt.Println(b)
-		//		return b[0]
-		//	})
-
 	}
 	formList.AddField("课程名称", "course_id", db.Varchar, form.SelectSingle).FieldOptions(services.TransFieldOptions(services.GetCourses(), "title", "id")).FieldMust().FieldOnChooseAjax("t_id", "choose/course_id",
 		func(ctx *context.Context) (bool, string, interface{}) {

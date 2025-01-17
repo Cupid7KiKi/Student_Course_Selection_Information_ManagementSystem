@@ -2,14 +2,12 @@ package pages
 
 import (
 	"Student_Course_Selection_Information_ManagementSystem/services"
-	"fmt"
 	"github.com/GoAdminGroup/go-admin/context"
 	"github.com/GoAdminGroup/go-admin/modules/auth"
 	"github.com/GoAdminGroup/go-admin/modules/db"
 	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template/color"
+	tmpl "github.com/GoAdminGroup/go-admin/template"
 	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/action"
 	"github.com/GoAdminGroup/go-admin/template/types/form"
 )
 
@@ -44,35 +42,6 @@ func GetCourseteacherTable(ctx *context.Context) table.Table {
 		FieldDisplay(func(value types.FieldModel) interface{} {
 			return value.Row["courses_goadmin_join_title"]
 		})
-	//info.AddButton(ctx, "选择课程", "fa-plus", action.Jump("/admin/info/select_course/new?__page=1&__pageSize=10&__sort=id&__sort_type=desc"), color.Red)
-	//
-	//info.HideEditButton()
-	//info.AddField("选择课程", "选择课程", db.Varchar).
-	//	FieldDisplay(func(value types.FieldModel) interface{} {
-	//		return template.Default().
-	//			Link().
-	//			SetURL("/admin/info/select_course/new").
-	//			SetContent(template2.HTML(value.Value)).
-	//			OpenInNewTab().
-	//			SetTabTitle(template.HTML("Author Detail(" + value.Value + ")")).
-	//			GetContent()
-	//	})
-	// 第一个参数为标题，第二个参数为对应的操作
-	//info.AddActionButton(ctx, "操作", action.Jump("https://baidu.com"))
-	//if services.GetUserRole(user) == "operator" {
-	//
-	//}
-
-	//成功案例
-	//info.AddButton(ctx, "测试", icon.Android, action.Ajax("/admin/ajax",
-	//	func(ctx *context.Context) (success bool, msg string, data interface{}) {
-	//		return true, "请求成功，奥利给", ""
-	//	}))
-
-	//第一个参数为标题，第二个参数为对应的操作
-	//info.AddColumnButtons(ctx, "选择课程", types.GetColumnButton("新建课程", icon.Info,
-	//	action.Jump("select_course/new"))).FieldHide()
-	//info.Where("tea_id", "=", "1")
 
 	detail := courseTeacher.GetDetail()
 	detail.AddField("ID", "id", db.Int)
@@ -102,29 +71,23 @@ func GetCourseteacherTable(ctx *context.Context) table.Table {
 		}).FieldDisplay(func(value types.FieldModel) interface{} {
 		return value.Row["courses_goadmin_join_description"]
 	})
-	iface := services.GetInterfaceByName("WLAN")
-	ip := services.GetIPv4Addresses(iface)
-	//fmt.Println("是否拥有学生权限,", user.CheckRole("student"))
 	if user.CheckRole("student") {
-		//detail.AddColumnButtons(ctx, "选择课程", types.GetColumnButton("新建课程", icon.Info,
-		//	action.Jump("http://127.0.0.1:9022/admin/info/select_course/new")))
-
-		detail.AddButton(ctx, "选择课程", "fa-plus", action.Jump("/admin/info/select_course/new?__page=1&__pageSize=10&__sort=id&__sort_type=desc"), color.Red)
-		detail.HideEditButton()
-		//component := tmpl.Template.Col().SetSize(types.SizeMD(9)),)
+		detail.AddFieldTr(ctx, " ", " ", db.Varchar)
+		detail.FieldDisplay(func(value types.FieldModel) interface{} {
+			tmp := tmpl.Default()
+			l := tmp.Col().SetSize(types.SizeMD(2)).SetContent(`<a href="http://192.168.21.63:9022/admin/info/select_course/new?__page=1&__pageSize=10&__sort=id&__sort_type=desc">`).AddContent(`<button type="button">选择课程</button></a>`).GetContent()
+			r := tmp.Col().SetContent(` `).SetSize(types.SizeMD(10)).GetContent()
+			component := tmp.Col().SetSize(types.SizeMD(12)).SetContent(l + r).GetContent()
+			return component
+		})
 	}
-
-	detail.AddButton(ctx, "选择课程", "fa-plus", action.Jump("/admin/info/select_course/new?__page=1&__pageSize=10&__sort=id&__sort_type=desc"), color.Red)
-	detail.HideNewButton()
-
-	fmt.Println(ip)
-	//action.Jump("http://"+ip+":9022/admin/info/select_course/new")
-	//detail.AddField("选择课程","choose",db)
-	//detail.AddField("123", "123", db.Int)
+	//iface := services.GetInterfaceByName("WLAN")
+	//ip := services.GetIPv4Addresses(iface)
+	//fmt.Println(ip)
 
 	if user.CheckRole("teacher") {
 		tea_name := services.GetTeacherID(user)
-		fmt.Println(tea_name)
+		//fmt.Println(tea_name)
 		info.Where("tea_id", "=", services.TransItoStr(tea_name))
 	}
 

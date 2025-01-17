@@ -8,11 +8,6 @@ import (
 	"strings"
 )
 
-func GetUserRole(u models.UserModel) string {
-	i := u.Roles[0]
-	return i.Slug
-}
-
 // getInterfaceByName 获取指定名称的网卡
 func GetInterfaceByName(name string) *net.Interface {
 	interfaces, err := net.Interfaces()
@@ -93,7 +88,7 @@ func TransItoStr(a interface{}) string {
 	if intValue, ok := a.(int64); ok {
 		// 使用 strconv.FormatInt 将 int64 转换为 string
 		strValue := strconv.FormatInt(intValue, 10) // 10 表示十进制
-		fmt.Println(strValue)                       // 输出
+		//fmt.Println(strValue)                       // 输出
 		return strValue
 	} else {
 		fmt.Println("value is not an int64")

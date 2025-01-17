@@ -15,7 +15,7 @@ func GetTeachersTable(ctx *context.Context) table.Table {
 
 	teachers := table.NewDefaultTable(ctx, table.DefaultConfigWithDriver("mysql"))
 
-	info := teachers.GetInfo()
+	info := teachers.GetInfo().HideFilterArea()
 
 	info.AddField("ID", "id", db.Int)
 	info.AddField("姓名", "name", db.Varchar).
