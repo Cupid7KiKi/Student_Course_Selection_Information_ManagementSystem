@@ -72,14 +72,11 @@ func GetCourseteacherTable(ctx *context.Context) table.Table {
 		return value.Row["courses_goadmin_join_description"]
 	})
 	if user.CheckRole("student") {
-		detail.AddFieldTr(ctx, " ", " ", db.Varchar)
-		detail.FieldDisplay(func(value types.FieldModel) interface{} {
-			tmp := tmpl.Default()
-			l := tmp.Col().SetSize(types.SizeMD(2)).SetContent(`<a href="http://127.0.0.1:9022/admin/info/select_course/new?__page=1&__pageSize=10&__sort=id&__sort_type=desc">`).AddContent(`<button type="button">选择课程</button></a>`).GetContent()
-			r := tmp.Col().SetContent(` `).SetSize(types.SizeMD(10)).GetContent()
-			component := tmp.Col().SetSize(types.SizeMD(12)).SetContent(l + r).GetContent()
-			return component
-		})
+		components := tmpl.Default(ctx)
+		lHtml := components.Col().SetSize(types.SizeMD(2)).SetContent("").GetContent()
+		rHtml := components.Col().SetSize(types.SizeMD(10)).SetContent("&nbsp;&nbsp;&nbsp;&nbsp;" + "<a href=\"/admin/info/select_course/new\" class=\"btn btn-primary\">选择课程</a>\n").GetContent()
+		components.Col().SetContent(lHtml + rHtml).GetContent()
+		detail.SetFooterHtml(components.Row().SetContent(lHtml + rHtml).GetContent())
 	}
 	//iface := services.GetInterfaceByName("WLAN")
 	//ip := services.GetIPv4Addresses(iface)
