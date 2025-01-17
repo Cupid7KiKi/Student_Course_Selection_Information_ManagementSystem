@@ -6160,3 +6160,19 @@
 2025-01-17T19:53:40.756+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
 2025-01-17T19:53:40.756+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
 2025-01-17T19:53:40.756+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-17T19:53:56.374+0800	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2025-01-17T19:53:56.387+0800	[34mINFO[0m	engine/engine.go:407	初始化配置
+2025-01-17T19:53:56.388+0800	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2025-01-17T19:53:56.388+0800	[34mINFO[0m	engine/engine.go:407	初始化插件
+2025-01-17T19:53:56.389+0800	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2025-01-17T19:54:07.259+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032207217371148472420001", "statuscode": "200", "method": "GET", "path": "/admin/info/course_teacher"}
+2025-01-17T19:54:08.845+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032207217371148488320002", "statuscode": "200", "method": "GET", "path": "/admin/info/course_teacher/detail"}
+2025-01-17T19:54:09.817+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032207217371148497950003", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course/new"}
+2025-01-17T19:54:16.606+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032207217371148566030004", "statuscode": "200", "method": "POST", "path": "/admin/operation/choose_course_id"}
+2025-01-17T19:54:18.256+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032207217371148582320005", "statuscode": "200", "method": "POST", "path": "/admin/new/select_course"}
+2025-01-17T19:54:18.287+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032207217371148582720006", "statuscode": "200", "method": "GET", "path": "/admin/info/course_teacher/detail"}
+2025-01-17T19:54:20.116+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032207217371148601000007", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course"}
+2025-01-17T19:54:24.970+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032207217371148649510008", "statuscode": "200", "method": "POST", "path": "/admin/delete/select_course"}
+2025-01-17T19:54:24.997+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032207217371148649810009", "statuscode": "200", "method": "GET", "path": "/admin/info/select_course"}
+2025-01-17T19:54:28.507+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032207217371148684870010", "statuscode": "302", "method": "GET", "path": "/admin/logout"}
+2025-01-17T19:54:28.517+0800	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "a9fef1032207217371148685170011", "statuscode": "200", "method": "GET", "path": "/admin/login"}
