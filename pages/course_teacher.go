@@ -4,9 +4,10 @@ import (
 	"Student_Course_Selection_Information_ManagementSystem/services"
 	"fmt"
 	"github.com/GoAdminGroup/go-admin/context"
+	"github.com/GoAdminGroup/go-admin/modules/auth"
 	"github.com/GoAdminGroup/go-admin/modules/db"
 	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template/icon"
+	"github.com/GoAdminGroup/go-admin/template/color"
 	"github.com/GoAdminGroup/go-admin/template/types"
 	"github.com/GoAdminGroup/go-admin/template/types/action"
 	"github.com/GoAdminGroup/go-admin/template/types/form"
@@ -16,7 +17,7 @@ func GetCourseteacherTable(ctx *context.Context) table.Table {
 
 	courseTeacher := table.NewDefaultTable(ctx, table.DefaultConfigWithDriver("mysql"))
 
-	//user := auth.Auth(ctx)
+	user := auth.Auth(ctx)
 
 	info := courseTeacher.GetInfo().HideFilterArea()
 
@@ -43,6 +44,9 @@ func GetCourseteacherTable(ctx *context.Context) table.Table {
 		FieldDisplay(func(value types.FieldModel) interface{} {
 			return value.Row["courses_goadmin_join_title"]
 		})
+	//info.AddButton(ctx, "选择课程", "fa-plus", action.Jump("/admin/info/select_course/new?__page=1&__pageSize=10&__sort=id&__sort_type=desc"), color.Red)
+	//
+	//info.HideEditButton()
 	//info.AddField("选择课程", "选择课程", db.Varchar).
 	//	FieldDisplay(func(value types.FieldModel) interface{} {
 	//		return template.Default().
@@ -66,8 +70,8 @@ func GetCourseteacherTable(ctx *context.Context) table.Table {
 	//	}))
 
 	//第一个参数为标题，第二个参数为对应的操作
-	info.AddColumnButtons(ctx, "选择课程", types.GetColumnButton("新建课程", icon.Info,
-		action.Jump("select_course/new"))).FieldHide()
+	//info.AddColumnButtons(ctx, "选择课程", types.GetColumnButton("新建课程", icon.Info,
+	//	action.Jump("select_course/new"))).FieldHide()
 	//info.Where("tea_id", "=", "1")
 
 	detail := courseTeacher.GetDetail()
@@ -100,12 +104,29 @@ func GetCourseteacherTable(ctx *context.Context) table.Table {
 	})
 	iface := services.GetInterfaceByName("WLAN")
 	ip := services.GetIPv4Addresses(iface)
-	detail.AddColumnButtons(ctx, "选择课程", types.GetColumnButton("新建课程", icon.Info,
-		action.Jump("http://127.0.0.1:9022/admin/info/select_course/new")))
+	//fmt.Println("是否拥有学生权限,", user.CheckRole("student"))
+	if user.CheckRole("student") {
+		//detail.AddColumnButtons(ctx, "选择课程", types.GetColumnButton("新建课程", icon.Info,
+		//	action.Jump("http://127.0.0.1:9022/admin/info/select_course/new")))
+
+		detail.AddButton(ctx, "选择课程", "fa-plus", action.Jump("/admin/info/select_course/new?__page=1&__pageSize=10&__sort=id&__sort_type=desc"), color.Red)
+		detail.HideEditButton()
+		//component := tmpl.Template.Col().SetSize(types.SizeMD(9)),)
+	}
+
+	detail.AddButton(ctx, "选择课程", "fa-plus", action.Jump("/admin/info/select_course/new?__page=1&__pageSize=10&__sort=id&__sort_type=desc"), color.Red)
+	detail.HideNewButton()
+
 	fmt.Println(ip)
 	//action.Jump("http://"+ip+":9022/admin/info/select_course/new")
 	//detail.AddField("选择课程","choose",db)
 	//detail.AddField("123", "123", db.Int)
+
+	if user.CheckRole("teacher") {
+		tea_name := services.GetTeacherID(user)
+		fmt.Println(tea_name)
+		info.Where("tea_id", "=", services.TransItoStr(tea_name))
+	}
 
 	info.SetTable("course_teacher").SetTitle("课程与教师").SetDescription("管理课程与教师间的信息").SetActionButtonFold()
 

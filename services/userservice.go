@@ -56,8 +56,15 @@ func GetStudentNameMap(u models.UserModel) (results []map[string]interface{}) {
 	}
 	return
 }
+func GetTeacherNameMap(u models.UserModel) (results []map[string]interface{}) {
+	results, err := GetDb().Query("SELECT tea_id FROM user_teacher as ut\njoin goadmin_users as gu on ut.user_id = gu.id where gu.id = " + strconv.Itoa(int(u.Id)) + ";")
+	if err != nil {
+		return
+	}
+	return
+}
 
-func GetStudentName(u models.UserModel) interface{} {
+func GetStudentID(u models.UserModel) interface{} {
 	var stu []interface{}
 	// 遍历切片
 	for _, item := range GetStudentNameMap(u) {
@@ -67,6 +74,18 @@ func GetStudentName(u models.UserModel) interface{} {
 		}
 	}
 	return stu[0]
+}
+
+func GetTeacherID(u models.UserModel) interface{} {
+	var tea []interface{}
+	// 遍历切片
+	for _, item := range GetTeacherNameMap(u) {
+		// 获取每个 map 的键和值
+		for _, value := range item {
+			tea = append(tea, value)
+		}
+	}
+	return tea[0]
 }
 
 func TransItoStr(a interface{}) string {

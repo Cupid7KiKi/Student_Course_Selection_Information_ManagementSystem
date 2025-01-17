@@ -35,10 +35,18 @@ func GetSelectcourseTable(ctx *context.Context) table.Table {
 	fmt.Println(user.Id)
 	if user.CheckRole("student") {
 		//预查询仅能查看自己
-		std_name := services.GetStudentName(user)
+		std_name := services.GetStudentID(user)
 		fmt.Println(std_name)
 
 		info.Where("std_id", "=", services.TransItoStr(std_name))
+
+	}
+	if user.CheckRole("teacher") {
+		//预查询仅能查看自己
+		tea_name := services.GetTeacherID(user)
+		fmt.Println(tea_name)
+
+		info.Where("t_id", "=", services.TransItoStr(tea_name))
 
 	}
 
@@ -80,7 +88,7 @@ func GetSelectcourseTable(ctx *context.Context) table.Table {
 		FieldHide()
 
 	//成功案例
-	info.AddActionButton(ctx, "选课", action.Jump("select_course/new"), color.LightGreen)
+	//info.AddActionButton(ctx, "选课", action.Jump("select_course/new"), color.LightGreen)
 
 	info.SetTable("select_course").SetTitle("学生选课管理").SetDescription("管理学生选课")
 
@@ -101,7 +109,24 @@ func GetSelectcourseTable(ctx *context.Context) table.Table {
 	}
 	fmt.Println("测试：", user.CheckRole("student"))
 	if user.CheckRole("student") {
-		formList.AddField("学生姓名", "std_id", db.Int, form.Default).FieldDisplayButCanNotEditWhenUpdate().FieldDefault(user.Name)
+		formList.AddField("学生姓名", "std_id", db.Int, form.Default).FieldDisplayButCanNotEditWhenUpdate().FieldDefault(services.TransItoStr(services.GetStudentID(user))).FieldHide()
+		//.
+		//	FieldDisplay(func(value types.FieldModel) interface{} {
+		//		fmt.Println("匿名：", value.Value)
+		//		a, err := services.GetDb().Query("select name from students where id = " + value.Value)
+		//		if err != nil {
+		//			return errors.New("错误")
+		//		}
+		//		var b []interface{}
+		//		for _, item := range a {
+		//			for _, value := range item {
+		//				b = append(b, value)
+		//			}
+		//		}
+		//		fmt.Println(b)
+		//		return b[0]
+		//	})
+
 	}
 	formList.AddField("课程名称", "course_id", db.Varchar, form.SelectSingle).FieldOptions(services.TransFieldOptions(services.GetCourses(), "title", "id")).FieldMust().FieldOnChooseAjax("t_id", "choose/course_id",
 		func(ctx *context.Context) (bool, string, interface{}) {

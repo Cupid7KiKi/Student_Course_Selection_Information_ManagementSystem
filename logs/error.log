@@ -5286,3 +5286,1084 @@ net/http.serverHandler.ServeHTTP
 	C:/Program Files/Go/src/net/http/server.go:2947
 net/http.(*conn).serve
 	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T14:51:03.680+0800	[31mERROR[0m	logger/logger.go:313	insert data error: Error 1366 (HY000): Incorrect integer value: '牢林' for column 'std_id' at row 1	{"traceID": "a9fef1032130417370102636630024"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T15:19:42.745+0800	[31mERROR[0m	logger/logger.go:313	insert data error: Error 1366 (HY000): Incorrect integer value: '' for column 'std_id' at row 1	{"traceID": "a9fef1032479217370119827320036"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T16:12:07.116+0800	[31mERROR[0m	logger/logger.go:313	insert data error: Error 1366 (HY000): Incorrect integer value: '陈雪林' for column 'std_id' at row 1	{"traceID": "a9fef1032810017370151271020003"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T16:55:39.205+0800	[31mERROR[0m	logger/logger.go:313	insert data error: slug or http_path or name should not be empty	{"traceID": "a9fef1032249617370177391880033"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T17:06:22.017+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1032589217370183819870004"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T19:51:17.852+0800	[31mERROR[0m	logger/logger.go:313	insert data error: 您输入的手机号码有误！！！	{"traceID": "a9fef1032589217370282778360010"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T19:52:32.110+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1032589217370283520820015"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T19:52:33.585+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1032589217370283535560016"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T19:53:57.079+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1032589217370284370510032"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T19:58:21.151+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1032589217370287011210033"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T19:58:32.197+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1030442417370287121690001"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T20:00:33.912+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1030442417370288338820018"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T20:00:35.592+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1030442417370288355650019"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T20:00:55.286+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1032937217370288552560001"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T20:00:56.001+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1032937217370288559730002"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T20:00:56.327+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1032937217370288562990003"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T20:00:56.486+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1032937217370288564600004"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T20:01:43.219+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1032417217370289031930001"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
+2025-01-16T20:02:05.993+0800	[31mERROR[0m	logger/logger.go:313	GlobalDeferHandler error runtime error: index out of range [0] with length 0	{"traceID": "a9fef1030766817370289259610001"}
+github.com/GoAdminGroup/go-admin/modules/logger.ErrorCtx
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/logger/logger.go:313
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/handler.go:32
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:884
+runtime.goPanicIndex
+	C:/Program Files/Go/src/runtime/panic.go:113
+Student_Course_Selection_Information_ManagementSystem/services.GetTeacherID
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/services/userservice.go:81
+Student_Course_Selection_Information_ManagementSystem/pages.GetCourseteacherTable
+	D:/Go-WorkPlace/src/Student_Course_Selection_Information_ManagementSystem/pages/course_teacher.go:112
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).table
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/common.go:88
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ShowInfo
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/controller/show.go:41
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).themeMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:141
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).traceIDMiddleware
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:123
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/plugins/admin/router.go:111
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/context/context.go:105
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.26/adapter/gin/gin.go:87
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/Go-WorkPlace/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1991
