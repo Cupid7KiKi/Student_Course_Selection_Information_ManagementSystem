@@ -22,5 +22,7 @@ var Generators = map[string]table.Generator{
 	"courses":        pages.GetCoursesTable,
 	"course_teacher": pages.GetCourseteacherTable,
 	"select_course":  pages.GetSelectcourseTable,
+	"user_student":   pages.GetUserstudentTable,
+	"user_teacher":   pages.GetUserteacherTable,
 	// generators end
 }

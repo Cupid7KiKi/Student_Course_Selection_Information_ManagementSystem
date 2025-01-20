@@ -95,3 +95,10 @@ func TransItoStr(a interface{}) string {
 		return "error!"
 	}
 }
+func GetUserName() (results []map[string]interface{}) {
+	results, err := GetDb().Query("SELECT * FROM goadmin_users")
+	if err != nil {
+		return
+	}
+	return
+}
